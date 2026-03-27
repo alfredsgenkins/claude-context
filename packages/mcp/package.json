@@ -15,6 +15,7 @@
         "typecheck": "tsc --noEmit",
         "start": "tsx src/index.ts",
         "start:with-env": "OPENAI_API_KEY=${OPENAI_API_KEY:your-api-key-here} MILVUS_ADDRESS=${MILVUS_ADDRESS:localhost:19530} tsx src/index.ts",
+        "preview-files": "tsx src/preview-files.ts",
         "prepublishOnly": "pnpm build"
     },
     "dependencies": {

@@ -693,7 +693,7 @@ export class Context {
     /**
      * Recursively get all code files in the codebase
      */
-    private async getCodeFiles(codebasePath: string): Promise<string[]> {
+    async getCodeFiles(codebasePath: string): Promise<string[]> {
         const files: string[] = [];
 
         const traverseDirectory = async (currentPath: string) => {
